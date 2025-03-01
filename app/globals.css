@@ -15,10 +15,9 @@
   --breakpoint-xl: 1200px;
 
   /* color pallete */
-  --color-rich-white: #ffffff;
-  --color-rich-dark-blue: #00171f;
-  --color-rich-navy: #003459;
-  --color-rich-soft-blue: #adebff;
+  --color-app-primary: #1c1c22;
+  --color-app-secondary: #00ff99;
+  --color-app-secondary-hover: #00e187;
 
   /* container */
   --padding-container: 15px;
@@ -30,7 +29,7 @@
   }
 
   body {
-    @apply font-jetbrainsMono bg-rich-dark-blue text-rich-white leading-loose;
+    @apply font-jetbrainsMono bg-app-primary text-white leading-loose;
   }
 }
 
