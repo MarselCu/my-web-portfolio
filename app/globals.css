@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+@theme {
+  /* font family */
+  --font-jetbrainsMono: JetBrains Mono, monospace;
+
+  /* screen breakpoint */
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 960px;
+  --breakpoint-xl: 1200px;
+
+  /* color pallete */
+  --color-rich-white: #ffffff;
+  --color-rich-dark-blue: #00171f;
+  --color-rich-navy: #003459;
+  --color-rich-soft-blue: #adebff;
+}
+
+@layer base {
+  body {
+    @apply font-jetbrainsMono bg-rich-dark-blue text-rich-white leading-loose;
+  }
+}
