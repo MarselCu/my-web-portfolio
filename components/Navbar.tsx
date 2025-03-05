@@ -6,7 +6,7 @@ interface Link {
   name: string;
 }
 
-const links: Link[] = [
+export const links: Link[] = [
   {
     link: "/",
     name: "Home",

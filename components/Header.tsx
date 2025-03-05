@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { Button } from "./ui/button";
 import Navbar from "./Navbar";
+import MobileNavbar from "./MobileNavbar";
 
 export default function Header() {
   return (
@@ -16,10 +17,12 @@ export default function Header() {
         <div className="hidden xl:flex gap-8">
           <Navbar />
           <Link href="/contact">
-            <Button className="">Hire Me</Button>
+            <Button className="cursor-pointer">Hire Me</Button>
           </Link>
         </div>
-        <div className="xl:hidden">mobile nav</div>
+        <div className="xl:hidden">
+          <MobileNavbar/>
+        </div>
       </div>
     </header>
   );
