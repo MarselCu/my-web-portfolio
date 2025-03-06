@@ -7,7 +7,7 @@ import MobileNavbar from "./MobileNavbar";
 
 export default function Header() {
   return (
-    <header className="py-4 xl:py-8">
+    <header className="pt-2 xl:pt-4">
       <div className="p-[15px] xl:px-20 mx-auto flex justify-between items-center">
         <Link href="/">
           <h1 className="text-4xl font-bold">
