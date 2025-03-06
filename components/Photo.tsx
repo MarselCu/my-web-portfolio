@@ -47,7 +47,11 @@ export default function Photo() {
           }}
           transition={{
             opacity: { delay: 2, duration: 0.4, ease: "easeIn" },
-            strokeDasharray: { duration: 20, repeat: Infinity, repeatType: "reverse" },
+            strokeDasharray: {
+              duration: 20,
+              repeat: Infinity,
+              repeatType: "reverse",
+            },
           }}
         />
       </motion.svg>

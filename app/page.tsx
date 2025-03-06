@@ -41,7 +41,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <Stat/>
+      <Stat />
     </section>
   );
 }
