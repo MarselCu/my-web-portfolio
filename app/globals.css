@@ -31,6 +31,13 @@
   body {
     @apply font-jetbrainsMono bg-app-primary text-white leading-loose;
   }
+  .text-outline {
+    -webkit-text-stroke: 1px #ffffff;
+  }
+
+  .group:hover .text-outline {
+    -webkit-text-stroke: 1px #00ff99;
+  }
 }
 
 :root {
