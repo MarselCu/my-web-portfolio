@@ -1,22 +1,6 @@
 import Link from "next/link";
-import { ReactNode } from "react";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { socials } from "@/data";
 
-interface Social {
-  icon: ReactNode;
-  path: string;
-}
-
-const socials: Social[] = [
-  {
-    icon: <FaGithub />,
-    path: "",
-  },
-  {
-    icon: <FaLinkedinIn />,
-    path: "",
-  },
-];
 export default function Social({
   containerStyles,
   iconStyles,
@@ -28,7 +12,7 @@ export default function Social({
     <div className={containerStyles}>
       {socials.map((social, index) => {
         return (
-          <Link href={social.path} key={index} className={iconStyles}>
+          <Link href={social.url} target="_blank" key={index} className={iconStyles}>
             {social.icon}
           </Link>
         );

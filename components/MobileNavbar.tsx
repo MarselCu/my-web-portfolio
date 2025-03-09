@@ -9,7 +9,7 @@ import {
 } from "./ui/sheet"; // Add SheetTitle
 import { CiMenuFries } from "react-icons/ci";
 import Link from "next/link";
-import { links } from "./Navbar";
+import { navigationLinks } from "@/data";
 
 export default function MobileNavbar() {
   const [open, setOpen] = useState(false);
@@ -37,7 +37,7 @@ export default function MobileNavbar() {
         </div>
 
         <nav className="flex flex-col justify-center items-center gap-8">
-          {links.map((link, index) => (
+          {navigationLinks.map((link, index) => (
             <Link
               href={link.link}
               key={index}
@@ -48,7 +48,7 @@ export default function MobileNavbar() {
               } text-xl capitalize font-medium hover:text-app-secondary-hover transition-all`}
               onClick={() => setOpen(false)} // Close on click
             >
-              {link.name}
+              {link.label}
             </Link>
           ))}
         </nav>
