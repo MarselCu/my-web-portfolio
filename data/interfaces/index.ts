@@ -1,21 +1,21 @@
 import { ReactNode } from "react";
 
-export interface NavLink {
+export type NavLink = {
     link: string;
     label: string;
 }
 
-export interface Social {
+export type Social = {
     icon: ReactNode;
     url: string;
 }
 
-export interface CareerStat {
+export type CareerStat = {
     num: number;
     label: string;
 }
 
-export interface Service {
+export type Service = {
     num: string;
     title: string;
     description: string;
@@ -28,24 +28,24 @@ export interface SectionData<t> {
     items: t[];
 }
 
-export interface AboutItem {
+export type AboutItem = {
     label: string;
     value: string;
 }
 
-export interface ExperienceItem {
+export type ExperienceItem = {
     company: string;
     position: string;
     duration: string;
 }
 
-export interface EducationItem{
+export type EducationItem = {
     institution: string;
     program: string;
     duration: string;
 }
 
-export interface SkillItem {
+export type SkillItem = {
     icon: ReactNode;
     name: string;
 }

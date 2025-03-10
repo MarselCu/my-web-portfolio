@@ -139,6 +139,31 @@ export const experiences: SectionData<ExperienceItem> = {
       position: "Frontend Developer Intern",
       duration: "2022 - 2023",
     },
+    {
+      company: "PT. Bank Central Asia (BCA)",
+      position: "Frontend Developer Intern",
+      duration: "2022 - 2023",
+    },
+    {
+      company: "PT. Bank Central Asia (BCA)",
+      position: "Frontend Developer Intern",
+      duration: "2022 - 2023",
+    },
+    {
+      company: "PT. Bank Central Asia (BCA)",
+      position: "Frontend Developer Intern",
+      duration: "2022 - 2023",
+    },
+    {
+      company: "PT. Bank Central Asia (BCA)",
+      position: "Frontend Developer Intern",
+      duration: "2022 - 2023",
+    },
+    {
+      company: "PT. Bank Central Asia (BCA)",
+      position: "Frontend Developer Intern",
+      duration: "2022 - 2023",
+    },
   ],
 };
 
@@ -146,6 +171,31 @@ export const educations: SectionData<EducationItem> = {
   title: "My Education",
   description: "",
   items: [
+    {
+      institution: "Presindet University",
+      program: "Bachelor of Computer Science",
+      duration: "2020 - 2023",
+    },
+    {
+      institution: "Presindet University",
+      program: "Bachelor of Computer Science",
+      duration: "2020 - 2023",
+    },
+    {
+      institution: "Presindet University",
+      program: "Bachelor of Computer Science",
+      duration: "2020 - 2023",
+    },
+    {
+      institution: "Presindet University",
+      program: "Bachelor of Computer Science",
+      duration: "2020 - 2023",
+    },
+    {
+      institution: "Presindet University",
+      program: "Bachelor of Computer Science",
+      duration: "2020 - 2023",
+    },
     {
       institution: "Presindet University",
       program: "Bachelor of Computer Science",
