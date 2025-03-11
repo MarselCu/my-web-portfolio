@@ -8,6 +8,7 @@ import {
   ExperienceItem,
   EducationItem,
   SkillItem,
+  Contact,
 } from "./interfaces";
 import {
   SiHtml5,
@@ -23,7 +24,7 @@ import {
   SiExpress,
   SiNodedotjs,
 } from "react-icons/si";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaLinkedinIn, FaPhoneAlt } from "react-icons/fa";
 
 export const navigationLinks: NavLink[] = [
   {
@@ -92,6 +93,19 @@ export const offeredServices: Service[] = [
     description:
       "Building scalable and efficient server-side applications with robust API integrations, authentication, and database management.",
     url: "",
+  },
+];
+
+export const contactInfo: Contact[] = [
+  {
+    icon: <FaPhoneAlt />,
+    title: "Phone",
+    description: "(+62) 813 7369 9560",
+  },
+  {
+    icon: <FaEnvelope />,
+    title: "Email",
+    description: "achell.chl@gmail.com",
   },
 ];
 

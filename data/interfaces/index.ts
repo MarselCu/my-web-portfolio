@@ -22,6 +22,12 @@ export type Service = {
     url: string;
 }
 
+export type Contact = {
+    icon: ReactNode;
+    title: string;
+    description: string;
+}
+
 export interface SectionData<t> {
     title: string;
     description: string;
