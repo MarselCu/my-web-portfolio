@@ -16,8 +16,9 @@ export default function Home() {
               <span className="text-app-secondary">Marchel</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              lure ipsun lure ipsum lure ipsum dono ipsum lore lore ipsum
-              programming technology ans science trading and investing
+              Junior Web Developer passionate about building responsive,
+              user-friendly, and scalable web applications. Eager to learn,
+              grow, and contribute to innovative projects.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Button

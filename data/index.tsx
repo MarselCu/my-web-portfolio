@@ -23,6 +23,8 @@ import {
   SiTailwindcss,
   SiExpress,
   SiNodedotjs,
+  SiFigma,
+  SiPostman,
 } from "react-icons/si";
 import { FaEnvelope, FaGithub, FaLinkedinIn, FaPhoneAlt } from "react-icons/fa";
 
@@ -66,15 +68,15 @@ export const careerStats: CareerStat[] = [
     label: "Year of Experience",
   },
   {
-    num: 0,
-    label: "Projects Completed",
+    num: 3, 
+    label: "Projects Contributed",
   },
   {
-    num: 0,
-    label: "Technologies Mastered",
+    num: 14, 
+    label: "Technologies Explored",
   },
   {
-    num: 0,
+    num: 65, 
     label: "Code Commits",
   },
 ];
@@ -84,15 +86,15 @@ export const offeredServices: Service[] = [
     num: "01",
     title: "Web Development",
     description:
-      "Creating responsive, high-performance, and visually appealing websites using modern web technologies and best coding practices.",
-    url: "",
+      "Developing and maintaining responsive websites using modern web technologies while focusing on user experience and performance.",
+    url: "/contact",
   },
   {
     num: "02",
     title: "Backend Development",
     description:
-      "Building scalable and efficient server-side applications with robust API integrations, authentication, and database management.",
-    url: "",
+      "Building and managing backend applications with API integration, authentication, and database management using popular backend technologies.",
+    url: "/contact",
   },
 ];
 
@@ -153,31 +155,6 @@ export const experiences: SectionData<ExperienceItem> = {
       position: "Frontend Developer Intern",
       duration: "2022 - 2023",
     },
-    {
-      company: "PT. Bank Central Asia (BCA)",
-      position: "Frontend Developer Intern",
-      duration: "2022 - 2023",
-    },
-    {
-      company: "PT. Bank Central Asia (BCA)",
-      position: "Frontend Developer Intern",
-      duration: "2022 - 2023",
-    },
-    {
-      company: "PT. Bank Central Asia (BCA)",
-      position: "Frontend Developer Intern",
-      duration: "2022 - 2023",
-    },
-    {
-      company: "PT. Bank Central Asia (BCA)",
-      position: "Frontend Developer Intern",
-      duration: "2022 - 2023",
-    },
-    {
-      company: "PT. Bank Central Asia (BCA)",
-      position: "Frontend Developer Intern",
-      duration: "2022 - 2023",
-    },
   ],
 };
 
@@ -186,32 +163,32 @@ export const educations: SectionData<EducationItem> = {
   description: "",
   items: [
     {
-      institution: "Presindet University",
-      program: "Bachelor of Computer Science",
-      duration: "2020 - 2023",
+      institution: "Udemy",
+      program: "Master Backend Development: Node, Docker, and MongoDB 2025",
+      duration: "2025",
     },
     {
-      institution: "Presindet University",
-      program: "Bachelor of Computer Science",
-      duration: "2020 - 2023",
+      institution: "Udemy",
+      program: "Master Next.js for Beginners with projects",
+      duration: "2025",
     },
     {
-      institution: "Presindet University",
-      program: "Bachelor of Computer Science",
-      duration: "2020 - 2023",
+      institution: "Udemy",
+      program: "Git for Beginners",
+      duration: "2025",
     },
     {
-      institution: "Presindet University",
-      program: "Bachelor of Computer Science",
-      duration: "2020 - 2023",
+      institution: "Google Certified Digital Marketing Course",
+      program: "The Fundamental of Digital Marketing",
+      duration: "2022",
     },
     {
-      institution: "Presindet University",
-      program: "Bachelor of Computer Science",
-      duration: "2020 - 2023",
+      institution: "Coursera",
+      program: "Programming for Everybody (Getting Started with Python)",
+      duration: "2020",
     },
     {
-      institution: "Presindet University",
+      institution: "President University",
       program: "Bachelor of Computer Science",
       duration: "2020 - 2023",
     },
@@ -223,28 +200,8 @@ export const skills: SectionData<SkillItem> = {
   description: "",
   items: [
     {
-      icon: <SiHtml5 />,
-      name: "HTML5",
-    },
-    {
-      icon: <SiCss3 />,
-      name: "CSS3",
-    },
-    {
-      icon: <SiJavascript />,
-      name: "JavaScript",
-    },
-    {
-      icon: <SiTypescript />,
-      name: "TypeScript",
-    },
-    {
-      icon: <SiPhp />,
-      name: "PHP",
-    },
-    {
-      icon: <SiPython />,
-      name: "Python",
+      icon: <SiNextdotjs />,
+      name: "NextJs",
     },
     {
       icon: <SiAngular />,
@@ -255,20 +212,48 @@ export const skills: SectionData<SkillItem> = {
       name: "React",
     },
     {
-      icon: <SiNextdotjs />,
-      name: "NextJs",
-    },
-    {
-      icon: <SiTailwindcss />,
-      name: "TailwindCSS",
-    },
-    {
       icon: <SiExpress />,
       name: "ExpressJs",
     },
     {
       icon: <SiNodedotjs />,
       name: "NodeJs",
+    },
+    {
+      icon: <SiTypescript />,
+      name: "TypeScript",
+    },
+    {
+      icon: <SiJavascript />,
+      name: "JavaScript",
+    },
+    {
+      icon: <SiPhp />,
+      name: "PHP",
+    },
+    {
+      icon: <SiPython />,
+      name: "Python",
+    },
+    {
+      icon: <SiTailwindcss />,
+      name: "TailwindCSS",
+    },
+    {
+      icon: <SiCss3 />,
+      name: "CSS3",
+    },
+    {
+      icon: <SiHtml5 />,
+      name: "HTML5",
+    },
+    {
+      icon: <SiFigma />,
+      name: "Figma",
+    },
+    {
+      icon: <SiPostman />,
+      name: "Postman",
     },
   ],
 };
